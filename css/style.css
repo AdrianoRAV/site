@@ -6,6 +6,16 @@ h1,h2,h2{
     font-family: Asap,sans-serif;
     color: #000000;
 }
+
+.botao {
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 10px 30px;
+        background-color: #191970;
+        font-size: .9em;
+        border-radius: 3px;
+}
+
 /* Navegação */
 nav {
     display: flex;
@@ -73,5 +83,62 @@ header p{
 
 #sobre {
     display: flex;
-    fl
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+    color: #FFFFFF;
+}
+
+#sobre h2 {
+        color: #FFFFFF;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#sobre .botao {
+
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+}
+
+/* Serviços*/
+
+#serviços {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+
+}
+
+#serviços div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*Fotos*/
+
+#fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#fotos h2{
+            margin-bottom: 20px;
+}
+
+#fotos img {
+
+            width: 100%;
 }
